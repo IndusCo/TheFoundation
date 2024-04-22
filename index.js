@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
     // Start movement when Start button is clicked
     startButton.addEventListener('click', () => {
+        audioPlayer.play(); // Play the audio
         if (!movementIntervalId) { // Start only if not already running
             moveImageRandomly(); // Move the image initially
             movementIntervalId = setInterval(moveImageRandomly, 100); // Start moving every 0.1 seconds
@@ -22,6 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
     // Stop movement when Stop button is clicked
     stopButton.addEventListener('click', () => {
+        audioPlayer.pause(); // Pause the audio
         if (movementIntervalId) { // Stop only if currently running
             clearInterval(movementIntervalId); // Stop moving
             movementIntervalId = null; // Reset interval ID
