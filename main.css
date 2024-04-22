@@ -1,5 +1,5 @@
 body{
-	background-color: black;
+	background-color: gray;
 }
 
 nav{
@@ -10,17 +10,17 @@ nav{
   line-height: 30px;
 }
 
+p {
+  margin-top: 200px;
+}
+
 footer{
   text-align: center;
   margin-right: 200px;
 }
 
-#memeimage{
-  margin-right: 200px;
-}
 
 h1{
 	color: teal;
 	text-align: 15px;
 }
-
