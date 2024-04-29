@@ -1,0 +1,29 @@
+body{
+	background-color: tomato;
+}
+
+h1{
+	font-family: Impact, sans-serif;
+	color: lawngreen;
+	font-size: 47px;
+	letter-spacing: 3px;
+	text-align: 15px;
+	padding-top: 200px;
+}
+
+table, th, td {
+	border: 3px solid black;
+ }
+ th, td {
+	padding-top: 50px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 50px;
+ }
+
+ footer{
+	text-align: center;
+	color:darkblue;
+	font-family: 'Franklin Gothic Medium';
+	font-weight: bolder;
+  }
